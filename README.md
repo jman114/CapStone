@@ -1,29 +1,159 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# James McMinn's Capstone Project Read Me
 
-## Overview
+## SWOT Analysis
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+You can find my SWOT analysis [here](https://docs.google.com/document/d/18_oAzv0vs8epPySofWTF5np7BsotSv7o0M9AUdvfVEY/edit?usp=sharing).
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+## Flow Chart
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+You can find my flow chart [here](https://lucid.app/lucidchart/ba82b14f-f14b-494d-b70d-70c8d24ad7c5/edit?viewport_loc=201%2C131%2C1464%2C765%2C0_0&invitationId=inv_508ebbe0-7327-4527-89fa-6be5da43b690).
 
-## Get Started
+## Wireframes
 
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
+- You can find my wireframes for desktop [here](https://lucid.app/lucidchart/725dab5e-c37b-4f6b-9fc6-069c740351fc/edit?viewport_loc=-340%2C-21%2C2196%2C1148%2C0_0&invitationId=inv_43df7d43-71aa-4e30-81ce-87319328d860).
+- You can find my wireframes for mobile [here](https://lucid.app/lucidchart/edd7afe1-569b-4842-9962-93ad446088b2/edit?viewport_loc=-811%2C39%2C3294%2C1722%2C0_0&invitationId=inv_3278d430-b94e-40e0-a814-da831f228236).
 
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
+## Capstone Idea (Definition Statement)
 
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+ I want to build an application that allows hairstylists and barbers to sign up for a service (much like an uber driver) to go mobile and cut people’s hair at home. The application will also allow users to search through the stylist available by location and make appointments/rate the service they received and pay/tip on with the application.
 
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
+## My Application Will Be Used By (Audience)
 
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
+- Stylists/Barbers
+- People who need a haircut
+- People who work from home
+- Single parents
+- People who work 2 jobs
+- Immune compromised people that don’t want to go into public
+- People without a car
+- Injured people - Broken legs, etc.
+- People who don’t have a lot of time to plan ahead for an outside-of-the-house appointment.
+- Elderly people
+- Parents with several kids
+- People who need a last minute haircut
+- Hospital visits
+- Children with special needs
+- Age range: 18 to 65
+- Male & Female
+- Mentor & Peers
+- Recruiters & Career Coaches
+- Hiring Managers
 
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
 
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
+## Elevator Pitch
 
-**Note:** This is a template repository, no need to 'fork it.
+Hi I’m James McMinn, a Savvy Coders student in St. Louis, Missouri. It’s great to meet you!
+
+Since you work with the top investing firm in St. Louis I figured you’d be interested to know that millions of people can't get haircuts for various reasons.
+
+The thing that makes them similar is they simply can't get to the salon or barbershop. 90% of people say they wish there was another way to get a haircut.
+
+The great part about being a Savvy Coder's student is that I've been able to fix their problem with a new Uber-Like app where stylists or barbers will come to your home to cut your hair.
+
+In fact, my app is one of the only apps that offers a service to get your haircut at home on demand.
+
+I think my app could be beneficial to your investment firm as well as myself. Are you available this week to speak further on this?”
+
+## Color Palate
+
+- B0123C
+- 0B4F6C
+- 496DDB
+- FCA311
+
+## Fonts
+
+- [Lato](https://typ.io/fonts/lato)
+- [Roboto Slab](https://typ.io/fonts/roboto_slab)
+
+## Outline Of Content
+
+What do I want on each page?  (text / Buttons / images / navigation)
+
+### Homepage
+
+- Navigation —-> Services | Stylists | Book Now
+- Hero image.
+- Overview text.
+- 3 Images with app benefits below the image.
+- CTA box that links to book now.
+- Clickable navigation boxes.
+- Footer
+
+### Services
+
+- Navigation ---> Home (logo) | Stylists | Book Now
+- Hero Image.
+- Menu List/Accordions of services with descriptions and Prices.
+- When clicked takes you to book now.
+- Footer.
+
+### Stylists
+
+- Navigation --> Home (logo) | Services | Book Now
+- Hero Image.
+- List of stylists to browse.
+- Ability to pick stylist and move on to book now.
+- Footer.
+
+### Book Now
+
+- Navigation ---> Home (logo) | Services | Book Now
+- Text description that they are about to book.
+- Accordions Listing (Appointment Type/service & description with price to be selected). Once selected ->
+- Accordions showing (Stylists -> once selected the date and time option drops down. Then continue to finish booking).
+- Footer
+
+### Confirmation Page
+
+- Confirmation info for appointment placed.
+
+### Footer
+
+- The footer will have contact info and social icons.
+
+### Images & Logo
+- Still finding the right images and creating a logo.
+
+## Sample Websites
+
+Here are aa few websites or applications that I found that offer this type of service.
+
+## 1. [Dash Stylists](https://www.dash-stylists.com/at-home-haircut-by-a-pro)
+
+### Liked:
+ - Icons
+ - Images
+
+### Didn't Like
+ - I didn't like anything about this site except the overall concept.
+
+## 2. [Get Short Cut](https://www.getshortcut.co/)
+
+### Liked:
+- The modern look.
+- The nice images.
+- The Logo.
+- The Layout.
+- The fact that they have a mobile app too.
+
+### Didn't Like:
+- The navigation is confusing.
+- They are trying to appeal to too many audiences at once.
+- They local salons are listed. I feel like they shouldn't be.
+
+## 3. [Doorbell Barbers](https://www.doorbellbarbers.com/)
+
+### Liked:
+- Intuitive navigation.
+- Good explanations of the services.
+- Easy to book an appointment.
+- Description and rating of stylists.
+
+### Didn't Like:
+- Logo design is basic.
+- Website design looks amateur.
+- Weddings and lady sections that can't be booked online.
+
+## API
+As of right now the only API that I can find that will work for my app is the Google maps API. I will continue looking to see if there is one with information about hair stylists.
