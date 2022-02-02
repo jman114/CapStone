@@ -6,12 +6,12 @@ You can find my SWOT analysis [here](https://docs.google.com/document/d/18_oAzv0
 
 ## Flow Chart
 
-You can find my flow chart [here](https://lucid.app/lucidchart/ba82b14f-f14b-494d-b70d-70c8d24ad7c5/edit?viewport_loc=201%2C131%2C1464%2C765%2C0_0&invitationId=inv_508ebbe0-7327-4527-89fa-6be5da43b690).
+You can find my flow chart [here](https://github.com/jman114/CapStone/blob/master/Documents/UserFlowSmartHairJM.pdf).
 
 ## Wireframes
 
-- You can find my wireframes for desktop [here](https://lucid.app/lucidchart/725dab5e-c37b-4f6b-9fc6-069c740351fc/edit?viewport_loc=-340%2C-21%2C2196%2C1148%2C0_0&invitationId=inv_43df7d43-71aa-4e30-81ce-87319328d860).
-- You can find my wireframes for mobile [here](https://lucid.app/lucidchart/edd7afe1-569b-4842-9962-93ad446088b2/edit?viewport_loc=-811%2C39%2C3294%2C1722%2C0_0&invitationId=inv_3278d430-b94e-40e0-a814-da831f228236).
+- You can find my wireframes for desktop [here](https://github.com/jman114/CapStone/blob/master/Documents/SmartHairWireFrames%20-%20Desktop.pdf).
+- You can find my wireframes for mobile [here](https://github.com/jman114/CapStone/blob/master/Documents/SmartHairWireFrames%20-%20Mobile.pdf).
 
 ## Capstone Idea (Definition Statement)
 
