@@ -6,8 +6,6 @@ export default () => html`
 <br>
 <br>
 <h2>This Is My Future Contact Us Page</h2>
-
-
  <div class="formcontainer">
 <form action="https://formspree.io/f/meqnkoed" method="POST">
   <label for="name">Name:</label>
