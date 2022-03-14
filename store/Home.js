@@ -1,4 +1,6 @@
 export default {
-  header: "Home",
-  view: "Home"
+  header: "In A Snip",
+  view: "Home",
+  //Using as an example for my API
+  weather: {}
 };

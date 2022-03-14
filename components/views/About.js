@@ -2,6 +2,10 @@ import html from "html-literal";
 //import dogPic from "../../assets/img/photo-1510771463146-e89e6e86560e.jpeg";
 
 export default () => html`
+  <section id="jumbotron">
+  <h2>Click Below To Book An Appointment</h2>
+    <a href="./Book">Book Now</a>
+  </section>
   <section id="about">
         <h2>Things For Capstone Website</h2>
         <ul id="first-list">

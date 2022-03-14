@@ -2,21 +2,40 @@
   background-color: #0B4F6C;
 }
 
-header {
+#jumbotron {
   background: url(https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg) center center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 70vh;
   font-size: 30px;
+}
+
+#jumbotron > h2 {
+  color: white;
+  text-align: center;
+}
+
+#jumbotron > a {
+  text-decoration: none;
+  background-color: white;
+  font-size: 1.5em;
+  padding: 1.5rem;
+  border-radius: 10px;
 }
 
 body {
     font-family:'Roboto', sans-serif;
 }
 
-header > a {
+/* * {
+  box-sizing: border-box;
+} */
+
+
+/* header > a {
   text-decoration: none;
   background-color: #B0123c;
   font-size: 2.em;
@@ -27,16 +46,16 @@ header > a {
 
 header > a:hover {
   background-color: black;
-}
+} */
 
 @media (max-width: 549px){
   .hidden--mobile {
     display: none !important;
   }
 
-header {
-  height:90vh;
-}
+/* header {
+  height:50vh;
+} */
 
 nav {
   display: flex;
@@ -61,6 +80,25 @@ nav > ul > li {
   list-style-type: none;
  }
 
+ /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  width: 100%;
+}
+
  #first-list {
   width: auto;
   border-width: 5px 10px 5px 8px;
@@ -69,7 +107,7 @@ nav > ul > li {
   border-radius: 0%;
   margin-top: 10px;
   margin-left: 10px;
-  margin-right: 100px;
+  margin-right: 10px;
   background-color: #FCA311;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -100,11 +138,11 @@ nav > ul > li {
 
 }
 
-
 @media (min-width: 550px){
-  header {
+  /* header {
     height: 60vh;
-  }
+  } */
+
 
   nav > ul {
     display: flex;
@@ -113,27 +151,28 @@ nav > ul > li {
   }
 
   nav > ul > li {
-    display: inline-block;
-    text-decoration: none;
-    border: 3px solid;
+    display:inline;
+    text-decoration:black;
+    border: 2px solid;
     padding: .5rem .5rem;
-    border-radius: 5px;
+    border-radius: 20px;
   }
 
 
   nav > ul > li {
     position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    border: 5px solid #B0123c;
+    display: inline;
+    padding: 5px 10px;
+    border: 2px solid #B0123c;
     color: #B0123c;
     font-size: 30px;
-    font-family: arial;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: linear-gradient(#B0123c, #B0123c);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 0% 100%;
     transition: background-size .5s, color .5s;
+    background-color: chartreuse;
   }
 
   nav > ul > li:hover {
@@ -156,6 +195,7 @@ nav > ul > li {
   margin-left: 10px;
   margin-right: 100px;
   background-color: #FCA311;
+  background-position:center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
@@ -198,29 +238,6 @@ h2 {
   color:#FCA311
 }
 
-.topnav {
-  background-color: #FCA311;
-}
-
-.topnav a {
-  float: left;
-  color: #FCA311;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #496DDB;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #B0123c;
-  color: black;
-
-}
-
 
 footer {
   background-color: #B0123c;
@@ -256,8 +273,72 @@ img {
   font-weight:bold;
 }
 
-.row{clear:both}
-.column{
+/* .row{clear:both} */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* .column{
     width: 50%;
     float:left;
+} */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+    margin: 0;
+  background: linear-gradient(to right bottom, #49a09d, #5f2c82);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container {
+  position: absolute;
+  width: 100%;
+    top: 10%;
+    left: 0%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+}
+th {
+    text-align: left;
+}
+thead th {
+    background-color: #55608f;
+}
+tbody tr:hover {
+      background-color: rgba(255,255,255,0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover::before {
+  content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255,255,255,0.2);
+    z-index: -1;
 }
