@@ -74,6 +74,7 @@ function addEventListeners() {
 //     }
 //   }
 // });
+
 router
   .on({
     "/": () => render(state.Home),

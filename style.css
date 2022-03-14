@@ -2,6 +2,33 @@
   background-color: #0B4F6C;
 }
 
+#quote > #author {
+  display: flex;
+  justify-content: center;
+}
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 50px;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+#quote {
+  font-family: "Bradley Hand ITC";
+  text-align: center;
+  font-size: 20px;
+}
+
+#author {
+  margin-top: 10px;
+  font-family: "Bradley Hand ITC";
+  font-size: 35px;
+}
+
 #jumbotron {
   background: url(https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg) center center no-repeat;
   background-size: cover;
