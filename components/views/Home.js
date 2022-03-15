@@ -1,5 +1,4 @@
 //Using this as an example when for my API
-
 const kelvinToFahrenheit = kelvinTemp =>
   Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
 import html from "html-literal";
