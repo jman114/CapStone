@@ -84,5 +84,3 @@ router
     }
   })
   .resolve();
-
-//Hello
