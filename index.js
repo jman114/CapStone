@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const router = new Navigo("/");
-function render(st) {
+function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
     ${Header(st)}
     ${Nav(state.Links)}
@@ -17,9 +17,9 @@ function render(st) {
     ${Footer()}
   `;
   router.updatePageLinks();
-  addEventListeners();
+  addEventListeners(st);
 }
-function addEventListeners() {
+function addEventListeners(st) {
   // add event listeners to Nav items for navigation
   document.querySelectorAll("nav a").forEach(navLink =>
     navLink.addEventListener("click", event => {
@@ -77,7 +77,7 @@ router.hooks({
 
 router
   .on({
-    "/": () => render(state.Home),
+    "/": () => render(),
     ":page": params => {
       let page = capitalize(params.data.page);
       render(state[page]);
