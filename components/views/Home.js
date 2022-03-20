@@ -1,4 +1,4 @@
-//Using this as an example when for my API
+b; //Using this as an example when for my API
 const kelvinToFahrenheit = kelvinTemp =>
   Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
 import html from "html-literal";
@@ -12,51 +12,22 @@ export default st => html`
     <content class="responsive flex">
       <div class="main-content">
         <br />
+        <h2>Benefits Of Using In A Snip</h2>
         <br />
-        <div class="row">
-          <div class="column">
-            <h2>Why Choose Us</h2>
-            <ul id="first-list">
-              <li>Music</li>
-              <li>Basketball</li>
-              <li>Learning New Things</li>
-              <li>Problem Solving</li>
-            </ul>
-          </div>
-          <div class="column">
-            <h2>What We Do</h2>
-            <ol class="my-second-list">
-              <li>Being Wrong</li>
-              <li>Not Being Able To Figure Something Out</li>
-              <li>Unfinished</li>
-            </ol>
-          </div>
-          <div class="column">
-            <h2>Book With Us</h2>
-            <ol class="my-second-list">
-              <li>Being Wrong</li>
-              <li>Not Being Able To Figure Something Out</li>
-              <li>Unfinished</li>
-            </ol>
-          </div>
+        <div class="row-container">
+          <div class="row-item">Image 1</div>
+          <div class="row-item">Image 2</div>
+          <div class="row-item">Image 3</div>
+          <div class="row-item">Benefit 1</div>
+          <div class="row-item">Benefit 2</div>
+          <div class="row-item">Benefit 3</div>
         </div>
+
+
         <p>
           This is going to contain more information than you ever cared to know.
         </p>
-        <div class="row">
-          <div class="column" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-          </div>
-          <div class="column" style="background-color:#bbb;">
-            <h2>Column 2</h2>
-            <p>Some text..</p>
-          </div>
-          <div class="column" style="background-color:#ccc;">
-            <h2>Column 3</h2>
-            <p>Some text..</p>
-          </div>
-        </div>
+
         <p>
           You can see my
           <a
@@ -70,8 +41,18 @@ export default st => html`
           src="https://matchboxdesigngroup.com/app/uploads/2021/06/James-McMinn-personality-pic-3.jpg"
           alt="Image"
         /><br /><br />
+
+      <p></p>
+
+      <div class="row-container-bottom">
+        <div class="row-item-bottom">Services</div>
+        <div class="row-item-bottom">Stylists</div>
+        <div class="row-item-bottom">Book Now</div>
+
+        <br /><br />
       </div>
     </content>
+    </div>
   </section>
   <!-- Using this as an example when for my API -->
   <h2>
